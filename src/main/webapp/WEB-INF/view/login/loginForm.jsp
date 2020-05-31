@@ -7,10 +7,10 @@
 <title><spring:message code="login.title"/></title>
 </head>
 <body>
-	<form:form>
+	<form:form modelAttribute="loginCommand">
 	<form:errors/>
 	<p>
-		<label><spring:message code="email"/>
+		<label><spring:message code="email" />
 		<form:input path="email" />
 		<form:errors path="email" />
 		</label>
